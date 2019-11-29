@@ -1,0 +1,74 @@
+    #poster {
+        width: 100%;
+        height: 600px;
+        background-color: #8b98a9;
+        background-image: url(../images/poster.jpg);
+        background-size: cover;
+    }
+    
+    #city-list {
+        margin: 0 10%;
+        position: relative;
+        top: -100px;
+    }
+    
+    .city-row {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .city-item {
+        width: 300px;
+        height: auto;
+        margin: 0 20px;
+        background-color: #fafafa;
+        text-align: center;
+        padding-bottom: 20px;
+        position: relative;
+        border-bottom: 3px #346271 solid;
+    }
+    
+    .city-cover {
+        width: 300px;
+        height: 200px;
+        background-color: #333;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .name-chinese {
+        color: #346271;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .name-english {
+        color: #666;
+        font-size: 20px;
+    }
+    
+    .link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: transparent;
+    }
+    
+    .chongqing .city-cover {
+        background-image: url(../images/chongqing.jpg);
+    }
+    
+    .qingyuan .city-cover {
+        background-image: url(../images/qingyuan.jpg);
+    }
+    
+    .zhongshan .city-cover {
+        background-image: url(../images/zhongshan.jpg);
+    }

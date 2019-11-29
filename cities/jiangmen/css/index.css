@@ -1,0 +1,99 @@
+/* 城市介绍版块 */
+
+div.intro-module {
+    border-left: 3px lightgray solid;
+    margin: 50px 150px;
+    padding-bottom: 2px;
+}
+
+div.intro-module h3 {
+    border-left: 3px #ff9d00 solid;
+    padding-left: 20px;
+    position: relative;
+    left: -3px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+div.intro-module>article>p {
+    text-indent: 0;
+    margin: 1em 20px;
+    font-size: 0.9em;
+}
+
+
+/* 攻略版块 */
+
+div#strategy {
+    padding: 50px 150px 100px 150px;
+    background-color: #fafafa;
+    min-width: 1066px;
+    text-align: center;
+}
+
+.strategy-block {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+}
+
+.strategy-pic {
+    width: 296px;
+    height: 156px;
+}
+
+.strategy-hotel {
+    float: left;
+}
+
+.strategy-food {
+    float: right;
+}
+
+.strategy-hotel>.strategy-pic {
+    background-image: url(../hotel.jfif);
+    background-size: cover;
+}
+
+.strategy-attractions>.strategy-pic {
+    background-image: url(../fengjing.jfif);
+    background-size: cover;
+}
+
+.strategy-food>.strategy-pic {
+    background-image: url(../food.jfif);
+    background-size: cover;
+}
+
+.strategy-title {
+    margin: 20px 0 20px 0;
+}
+
+.strategy-num {
+    display: inline-block;
+    margin: 4px 10px 0 0;
+    width: 20px;
+    height: 20px;
+    background-color: #ff9d00;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.strategy-preview {
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+    margin: 20px 0 0 0;
+}
+
+.strategy-link {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 100%;
+    top: 0;
+}
